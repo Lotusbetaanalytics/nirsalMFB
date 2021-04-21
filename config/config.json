@@ -65,6 +65,14 @@
           "manifest": "./src/webparts/nirsalReactspotlight/NirsalReactspotlightWebPart.manifest.json"
         }
       ]
+    },
+    "nirsal-footer-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/nirsalFooter/NirsalFooterApplicationCustomizer.js",
+          "manifest": "./src/extensions/nirsalFooter/NirsalFooterApplicationCustomizer.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
@@ -76,6 +84,7 @@
     "NirsalReactgalleryWebPartStrings": "lib/webparts/nirsalReactgallery/loc/{locale}.js",
     "NirsalReactheadlineWebPartStrings": "lib/webparts/nirsalReactheadline/loc/{locale}.js",
     "NirsalReactbirthdaysWebPartStrings": "lib/webparts/nirsalReactbirthdays/loc/{locale}.js",
-    "NirsalReactspotlightWebPartStrings": "lib/webparts/nirsalReactspotlight/loc/{locale}.js"
+    "NirsalReactspotlightWebPartStrings": "lib/webparts/nirsalReactspotlight/loc/{locale}.js",
+    "NirsalFooterApplicationCustomizerStrings": "lib/extensions/nirsalFooter/loc/{locale}.js"
   }
 }
