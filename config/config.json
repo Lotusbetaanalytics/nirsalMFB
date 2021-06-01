@@ -1,0 +1,92 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "quicklinks-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/quicklinks/QuicklinksWebPart.js",
+          "manifest": "./src/webparts/quicklinks/QuicklinksWebPart.manifest.json"
+        }
+      ]
+    },
+    "nirsal-react-carousel-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/nirsalReactCarousel/NirsalReactCarouselWebPart.js",
+          "manifest": "./src/webparts/nirsalReactCarousel/NirsalReactCarouselWebPart.manifest.json"
+        }
+      ]
+    },
+    "nirsal-react-eventcalender-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/nirsalReactEventcalender/NirsalReactEventcalenderWebPart.js",
+          "manifest": "./src/webparts/nirsalReactEventcalender/NirsalReactEventcalenderWebPart.manifest.json"
+        }
+      ]
+    },
+    "nirsal-reactdocuments-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/nirsalReactdocuments/NirsalReactdocumentsWebPart.js",
+          "manifest": "./src/webparts/nirsalReactdocuments/NirsalReactdocumentsWebPart.manifest.json"
+        }
+      ]
+    },
+    "nirsal-reactgallery-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/nirsalReactgallery/NirsalReactgalleryWebPart.js",
+          "manifest": "./src/webparts/nirsalReactgallery/NirsalReactgalleryWebPart.manifest.json"
+        }
+      ]
+    },
+    "nirsal-reactheadline-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/nirsalReactheadline/NirsalReactheadlineWebPart.js",
+          "manifest": "./src/webparts/nirsalReactheadline/NirsalReactheadlineWebPart.manifest.json"
+        }
+      ]
+    },
+    "nirsal-reactbirthdays-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/nirsalReactbirthdays/NirsalReactbirthdaysWebPart.js",
+          "manifest": "./src/webparts/nirsalReactbirthdays/NirsalReactbirthdaysWebPart.manifest.json"
+        }
+      ]
+    },
+    "nirsal-reactspotlight-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/nirsalReactspotlight/NirsalReactspotlightWebPart.js",
+          "manifest": "./src/webparts/nirsalReactspotlight/NirsalReactspotlightWebPart.manifest.json"
+        }
+      ]
+    },
+    "nirsal-footer-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/nirsalFooter/NirsalFooterApplicationCustomizer.js",
+          "manifest": "./src/extensions/nirsalFooter/NirsalFooterApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "QuicklinksWebPartStrings": "lib/webparts/quicklinks/loc/{locale}.js",
+    "NirsalReactCarouselWebPartStrings": "lib/webparts/nirsalReactCarousel/loc/{locale}.js",
+    "NirsalReactEventcalenderWebPartStrings": "lib/webparts/nirsalReactEventcalender/loc/{locale}.js",
+    "NirsalReactdocumentsWebPartStrings": "lib/webparts/nirsalReactdocuments/loc/{locale}.js",
+    "NirsalReactgalleryWebPartStrings": "lib/webparts/nirsalReactgallery/loc/{locale}.js",
+    "NirsalReactheadlineWebPartStrings": "lib/webparts/nirsalReactheadline/loc/{locale}.js",
+    "NirsalReactbirthdaysWebPartStrings": "lib/webparts/nirsalReactbirthdays/loc/{locale}.js",
+    "NirsalReactspotlightWebPartStrings": "lib/webparts/nirsalReactspotlight/loc/{locale}.js",
+    "NirsalFooterApplicationCustomizerStrings": "lib/extensions/nirsalFooter/loc/{locale}.js",
+    "PropertyControlStrings": "node_modules/@pnp/spfx-property-controls/lib/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js"
+  }
+}

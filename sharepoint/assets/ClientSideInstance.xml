@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <ClientSideComponentInstance
+        Title="NirsalFooter"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ComponentId="4450dc62-64a8-488e-9876-d1f90f8ca114"
+        Properties="{&quot;testMessage&quot;:&quot;Test message&quot;}">
+    </ClientSideComponentInstance>
+</Elements>
